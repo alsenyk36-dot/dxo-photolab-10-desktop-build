@@ -1,0 +1,11 @@
+*.sh text eol=lf
+
+*.py linguist-detectable
+
+*.bat text eol=crlf
+
+*.ico binary
+**/*.py linguist-detectable
+yarn.lock linguist-generated
+*.html linguist-vendored
+*.png binary
